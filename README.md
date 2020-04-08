@@ -120,7 +120,6 @@ text_input_type(call_t<func_multy_return>());
 error C2664: 'void text_input_type(input_type)': cannot convert argument 1 from 'std::integral_constant<size_t,1>' to 'input_type'
 ```
 
-以下高能
 ===
 
 函数中允许临时变量的存在。在函数中，每一个变量都必须由两个类型来进行描述。一个是描述符，是不可变的，函数将会通过该描述符来提取变量。而另一个将是保存的此时该描述符所关联的类型。描述符与其关联的类型可以相同。可以对临时变量进行赋值和返回：
@@ -227,4 +226,8 @@ error C2664: 'void text_input_type(input_type)': cannot convert argument 1 from 
 depute_call_<final_func,para_<...> > 
 ```
 在其他的func_里面调用这个func_
+
+时隔5年后的更新：
+
+新增加了冒泡排序，见maopao.cpp
 
