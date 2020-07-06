@@ -1,0 +1,58 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Visual Studio File
+.vs
+.pdb
+
+# Project Template File
+/Demo/*/Debug
+/Demo/*/Release
+/Demo/*/x64/Debug
+/Demo/*/x64/Release
+/Demo/*/*/Debug
+/Demo/*/*/Release
+/Demo/*/*/x64/Debug
+/Demo/*/*/x64/Release
+/Parser/Debug
+/Parser/Release
+/Parser/x64/Debug
+/Parser/x64/Release
+/Parser/*/Debug
+/Parser/*/Release
+/Parser/*/x64/Debug
+/Parser/*/x64/Release
+*.pdb
+*.idb
+*.tlog
+*.ilk
